@@ -1,18 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Mobile restaurant app</title>
-</head>
+        <!-- font awesome link -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
 
-<body>
+        <!-- Google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Smythe&family=Source+Sans+Pro:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
 
+        <!-- CSS StyleSheet -->
+        <link rel="stylesheet" href="style.css" />
 
-    <script src="index.js"></script>
-</body>
+        <title>Mobile restaurant app</title>
+    </head>
 
+    <body>
+        <main class="container">
+            <header>
+                <div class="header">
+                    <h1>Jimmy’s Diner</h1>
+                    <p>The best burgers and pizzas in town.</p>
+                </div>
+            </header>
+
+            <section id="content">
+                <!--mini section One start -->
+                <div id="main-menu">
+                    <!-- <div class="menu-list">
+                        <div class="menu-container">
+                            <img
+                                src="image/pizza-img.png"
+                                alt="pizza image"
+                                class="menu-pic"
+                            />
+                            <div class="menu-details">
+                                <h1>Pizzas</h1>
+                                <p>pepperoni, mushrom, mozarella</p>
+                                <span class="price">$14</span>
+                            </div>
+                        </div>
+                        <i class="fa fa-thin fa-circle-plus add-icon"></i>
+                    </div>
+
+                    <div class="menu-list">
+                        <div class="menu-container">
+                            <img
+                                src="image/hamburger-img.png"
+                                alt="pizza image"
+                                class="menu-pic"
+                            />
+                            <div class="menu-details">
+                                <h1>Hamburger</h1>
+                                <p>beef, cheese, lettuce</p>
+                                <span class="price">$12</span>
+                            </div>
+                        </div>
+                        <i class="fa fa-thin fa-circle-plus add-icon"></i>
+                    </div>
+
+                    <div class="menu-list">
+                        <div class="menu-container">
+                            <img
+                                src="image/glass-img.png"
+                                alt="pizza image"
+                                class="menu-pic"
+                            />
+                            <div class="menu-details">
+                                <h1>Beer</h1>
+                                <p>grain, hops, yeast, water</p>
+                                <span class="price">$14</span>
+                            </div>
+                        </div>
+                        <i class="fa fa-thin fa-circle-plus add-icon"></i>
+                    </div> -->
+                </div>
+                <!-- mini section One End -->
+
+                <!-- mini section two start -->
+                <div>
+                    <!-- <div class="success-box">
+                        <div class="success">
+                            <h3>Thanks, James! Your order is on its way!</h3>
+                        </div>
+                    </div> -->
+
+                    <div class="order-list">
+                        <h1>Your order</h1>
+                        <div id="clicked-orders">
+                            <!-- <div class="order-details">
+                                <div class="order-title">
+                                    <h2>Pizza</h2>
+                                    <p class="remove">remove</p>
+                                </div>
+                                <p class="pice">$14</p>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div class="total-price">
+                        <h2>Total price</h2>
+                        <p class="pice">$14</p>
+                    </div>
+
+                    <div class="submit-btn">
+                        <button>Complete order</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Modal start -->
+
+            <!-- <div class="modal">
+                <div class="close-btn">
+                    <i class="fa fa-light fa-circle-xmark close-icon"></i>
+                </div>
+                <h1>Enter card details</h1>
+                <form action="">
+                    <input type="text" placeholder="Enter your name" />
+                    <input type="number" placeholder="Enter card number" />
+                    <input type="text" maxlength="3" placeholder="Enter CVV" />
+
+                    <button type="submit">Pay</button>
+                </form>
+            </div> -->
+        </main>
+
+        <script src="index.js" type="module"></script>
+    </body>
 </html>
